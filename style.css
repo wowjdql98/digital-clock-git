@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'digital-7mono';
+    src: url('font/digital-7mono.ttf');
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+
+
+  .clock {
+    background-image: url(/Group\ 2.png), url(/Group3.png);
+    background-repeat: no-repeat;
+    background-size: contain, contain;
+    background-position: 30px, 40px;
+    
+    width: 700px;
+    height: 224px;
+    /* background: #999; */
+    /* box-shadow: 
+      4px 4px 6px rgba(0,0,0, 0.3),
+      0 0 8px rgba(0,0,0,0.7) inset; */
+    /* width: 400px; */
+    /* height: 500px; */
+    display: flex;
+    /* padding: 30px; */
+    justify-content: center;
+    align-items: center;
+    /* border: 10px solid #333; */
+    /* border-radius: 50%; */
+    font-size: 75px;
+    font-family: 'digital-7mono', monospace;
+  }
+  
+  .clock .container {
+    display: flex;
+    
+
+  }
+  
+  
